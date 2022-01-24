@@ -14,3 +14,21 @@ if ( idade >= 18 && humano == true) {
 else {
     console.log ("você não é maior de idade")
 }   
+
+// Criar uma condição que exiba uma mensagem no console se você fizer aniversário em Janeiro OU Dezembro *//
+let  nome = `Joy`
+ month = `Maio`
+
+if (month == "Janeiro" || month == "Dezembro"){
+    console.log(`${nome}, que legal você faz aniversário em Janeiro ou Dezembro!`)}
+else { console.log(`${nome}, poxa você não faz aniversário em Janeiro ou Dezembro.`)
+}
+
+//*** Exercícios bônus
+//4 - Criar uma condição que exiba uma mensagem no console se seu nome começar com a letra R
+
+//5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
+
+
+
+
